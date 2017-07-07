@@ -1,0 +1,470 @@
+@charset "UTF-8";
+/*头部部分  开始*/
+
+.header {
+    width: 100%;
+    height: 715px;
+    background: url("../images/bg_b35355a.jpg") no-repeat center top;
+    position: relative;
+}
+
+.header h1 {
+    width: 87px;
+    height: 87px;
+    background-size: cover;
+    width: 169px;
+    height: 117px;
+    position: absolute;
+    top: 20px;
+    opacity: 0;
+    left: 40px;
+}
+.header h1 img {
+    float: left;
+    margin-left: 10px;
+}
+.header .gw {
+    width: 182px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    background: pink;
+    overflow: hidden;
+    top: 40px;
+    border-radius: 25px;
+    opacity: 0;
+    background: url("../images/goweb1_0724a29.png") no-repeat;
+}
+
+.header .gw:hover {
+    background: url("../images/goweb2_c83b296.png") no-repeat;
+}
+.header .gw a{
+    display: block;
+    text-indent: -999px;
+}
+.header .fan {
+    background: url("../images/shanzi_8ac3a48.png") no-repeat;
+    width: 807px;
+    height: 617px;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    opacity: 0;
+    margin-left: -403px;
+}
+.header .container {
+    position: relative;
+    height: 715px;
+}
+.header .container .person {
+    width: 100%;
+    height: 775px;
+    background: url("../images/persons_8fc27b7.png") no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -300px;
+    left: 50%;
+    margin-left: -50%;
+    opacity: 0;
+}
+.header .container .jyzz {
+    background: url("../images/bigtitle_07a4621.png") no-repeat;
+    width: 754px;
+    height: 428px;
+    position: absolute;
+    top: 600px;
+    z-index: 10;
+    left: 50%;
+    margin-left: -377px;
+    opacity: 0;
+}
+.header .container .ewm {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.header .container .ewm .smewm {
+    width: 121px;
+    height: 121px;
+    background: #fff;
+    border-radius: 6px;
+    position: relative;
+    margin-left: 10px;
+}
+.header .container .ewm .smewm i{
+    position: absolute;
+    background: url("../images/line_152ea04.png") no-repeat;
+    background-size: 100%;
+    width: 118px;
+    height: 10px;
+    top: 5px;
+}
+.header .container .ewm .smewm img{
+    width: 103px;
+    height: 103px;
+    left: 50%;
+    margin-left: -52px;
+    top: 50%;
+    margin-top: -52px;
+    position: absolute;
+}
+.header .container .ewm .download {
+    width: 137px;
+    height: 90px;
+}
+.header .container .ewm .download .iphone {
+    display: block;
+    background: url("../images/downios1_1e54baa.png") no-repeat;
+    width: 137px;
+    height: 42px;
+    margin-top: 10px;
+}
+.header .container .ewm .download .iphone:hover{
+    background: url("../images/downios2_dc6c480.png") no-repeat;
+}
+.header .container .ewm .download .android {
+    display: block;
+    background: url("../images/downand1_397d9a2.png") no-repeat;
+    width: 137px;
+    height: 42px;
+    margin-top: 10px;
+}
+
+
+/*头部部分  结束*/
+
+/*main 主体部分 开始 */
+
+.main {
+    background: url("../images/fd_0f68ace.jpg") no-repeat center top;
+    width: 100%;
+    height: 1919px;
+    position: relative;
+}
+.main .container {
+    position: relative;
+    height: 1800px;
+    /*background: pink;*/
+    top: 350px;
+}
+.main .container .qb {
+    width: 730px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -365px;
+    opacity: 0;
+    background: url("../images/newinf_title_7ce2ddf.png") no-repeat;
+}
+.main .container .list {
+    position: relative;
+    top: 100px;
+    width: 1300px;
+    height: 700px;
+    /*z-index: 10;*/
+}
+.main .container .list li{
+    width: 290px;
+    height: 300px;
+    /*background: #ff0;*/
+    margin-left: 20px;
+    float: left;
+}
+.main .container .list li .item-div i.top{
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #ff0000;
+    position: absolute;
+    top: 6px;
+    left: 22px;
+
+}
+.main .container .list li .item-div i.left{
+    display: block;
+    width: 2px;
+    height: 0px;
+    background: #ff0000;
+    position: absolute;
+    bottom: 20px;
+    left: 22px;
+
+}
+.main .container .list li .item-div i.bot{
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #ff0000;
+    position: absolute;
+    top: 277px;
+    right: 85px;
+
+}
+.main .container .list li .item-div i.right{
+    display: block;
+    width: 2px;
+    height: 0px;
+    background: #ff0000;
+    position: absolute;
+    top: 6px;
+    right: 84px;
+
+}
+.main .container .list li{
+    position: relative;
+}
+.main .container .list  div{
+    width: 290px;
+    height: 300px;
+    position: relative;
+    /*top: 200px;*/
+    opacity: 0;
+}
+.main .container .list .item-01 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/p1_b5eb03b.png") no-repeat;
+}
+.main .container .list .item-02 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/p2_692744a.png") no-repeat;
+}
+.main .container .list .item-03 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/p3_e9ac5d8.png") no-repeat;
+}
+.main .container .list .item-04 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/p4_9e54b22.png") no-repeat;
+}
+.main .container .list .item-05 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/p5_02044e3.png") no-repeat;
+}
+.main .container .list .item-05 {
+    margin-left: 180px;
+    margin-top: 80px;
+}
+.main .container .list .item-06 {
+    margin-left: 300px;
+    margin-top: 80px;
+}
+.main .container .list .item-06 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/p7_aff7ede.png") no-repeat;
+}
+.main .container .gameTs {
+    width: 1300px;
+    height: 580px;
+    position: relative;
+    top: 220px;
+}
+.main .container .gameTs .yxts {
+    background: url("../images/gamegood_title_ad113b8.png") no-repeat;
+    width: 730px;
+    height: 47px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -365px;
+    opacity: 0;
+}
+
+
+
+.mtk {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: none;
+    background: rgba(0, 0, 0, .5);
+}
+
+
+
+/*main 主体部分 结束 */
+/*3D旋转效果开始*/   /*774    438*/
+.wrap {
+    width: 774px;
+    height: 438px;
+    margin: 50px auto;
+    perspective: 1000px;
+    position: relative;
+    z-index: 90;
+    top: 100px;
+}
+
+.wrap ul{
+    width: 774px;
+}
+.wrap ul li{
+    width: 193.5px;
+    height: 438px;
+    float: left;
+    position: relative;
+    transform: translateZ(-180px);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: 0.8s;
+}
+.wrap ul li:nth-of-type(1) span {
+    background-position: 0;
+}
+.wrap ul li:nth-of-type(2) span {
+    background-position: -193.5px;
+}
+.wrap ul li:nth-of-type(3) span {
+    background-position: -387px;
+}
+
+.wrap ul li:nth-of-type(4) span {
+    background-position: -580.5px;
+}
+
+.wrap ul li:nth-of-type(1) {
+    transition: 0.6s 0s;
+}
+.wrap ul li:nth-of-type(2) {
+    transition: 0.6s 0.1s;
+}
+.wrap ul li:nth-of-type(3) {
+    transition: 0.6s 0.2s;
+}
+.wrap ul li:nth-of-type(4) {
+    transition: 0.6s 0.3s;
+    z-index: -1;
+}
+
+.wrap ul li span{
+    width: 100%;
+    height: 438px;
+    display: block;
+    margin: 0;
+    position: absolute;
+}
+
+.wrap ul li span:nth-child(1){
+    top:-438px;
+    transform-origin: bottom;
+    transform: translateZ(219px) rotateX(90deg);
+    background-image:url("../images/bannerimg1.jpg");
+}
+.wrap ul li span:nth-child(2){
+    top: 438px;
+    transform-origin: top;
+    transform: translateZ(219px) rotateX(-90deg);
+    background-image:url("../images/bannerimg2.jpg");
+}
+.wrap ul li span:nth-child(3){
+    transform: translateZ(219px);
+    background-image:url("../images/bannerimg3.jpg");
+}
+.wrap ul li span:nth-child(4){
+    transform: translateZ(-219px) rotateX(180deg);
+    background-image:url("../images/bannerimg4.jpg");
+}
+.wrap a {
+    position: absolute;
+    width: 42px;
+    height: 82px;
+    background: pink;
+    top: 50%;
+    margin-top: -41px;
+}
+.wrap a.prev{
+    left: -100px;
+    background: url("../images/left_5f76ca5.png") no-repeat;
+}
+.wrap a.next{
+    right: -100px;
+    background: url("../images/right_584f835.png") no-repeat;
+}
+
+
+/*3D旋转效果结束*/
+
+
+/*footer 部分开始*/
+.footer {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    top: 130px;
+    background: url("../images/bottombg_3160b95.png") no-repeat;
+}
+.footer .container {
+    height: 170px;
+    width: 1000px;
+    margin:0 auto;
+    position: relative;
+    padding-top: 120px;
+}
+
+.footer .footerlogo {
+    float: left;
+    background: url("../images/netease.1.png") no-repeat;
+    width: 118px;
+    height: 31px;
+    margin-left: 30px;
+}
+.footer .wy-logo {
+    float: left;
+    width: 134px;
+    height: 31px;
+    background: url("../images/nie.1.png") no-repeat;
+}
+.footer .content {
+    height: 31px;
+    float: left;
+    line-height: 31px;
+    margin-left: 30px;
+}
+.footer p{
+    float: left;
+    width: 800px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: 20px;
+}
+/*footer 部分结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

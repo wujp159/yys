@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/*common部分的样式*/
+.container{
+    width: 1300px;
+    margin:0 auto;
+}
+
+/*顶部通栏 开始*/
+.topBar{
+    width: 100%;
+    height:55px;
+    background: #fbfbfb;
+    position: relative;
+}
+.topBar .container{
+    height: 55px;
+}
+.topBar .container .wangyi-logo{
+    width: 133px;
+    height: 44px;
+
+}
+.topBar .container .wangyi-logo a{
+    text-indent: -9999px;
+    background: url("../images/wangyi_logo.png") no-repeat;
+    display: block;
+    width: 133px;
+    height: 44px;
+    margin-top: 7px;
+}
+.topBar .container .topBar-img {
+    margin-left: 18px;
+    position: relative;
+    height: 55px;
+}
+.topBar .container .topBar-img:hover .bigImg{
+    display: block;
+    z-index: 99;
+}
+.topBar .container .topBar-img .smallImg{
+
+}
+.topBar .container .topBar-img .bigImg{
+    position: absolute;
+    top: 55px;
+    left: -150px;
+    display: none;
+}
+.topBar .container .supNav{
+    /*margin-left: 72px;*/
+}
+.topBar .container .supNav li{
+    float: left;
+    line-height: 52px;
+    padding: 0 13px 0 13px;
+    height: 53px;
+    font-size: 14px;
+}
+.topBar .container .supNav li+li{
+    float: left;
+}
+.topBar .container .supNav li a{
+    color: #444;
+}
+.topBar .container .supNav li:hover{
+    background: #F3F3F3;
+    border-bottom: 2px solid #f00;
+}
+.topBar .container .supNav li:hover a{
+    color: #DE9FA0;
+}
+.topBar .container .supNav li.mulu{
+    position: relative;
+    padding-right: 22px;
+}
+.topBar .container .supNav li s{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    right: 0px;
+    top:50%;
+    margin-top: -8px;
+}
+.topBar .container .supNav li i{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 5px solid #000;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    left: 50%;
+    margin-left: -5px;
+    top: 50%;
+    margin-top: -3px;
+}
+.topBar .container .supNav li:hover s{
+    background: #FCFCFC;
+}
+.topBar .container .supNav li:hover i{
+    border: 5px solid #DE9FA0;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+.topBar .container .supNav .last{
+    position: relative;
+    width: 120px;
+    overflow: hidden;
+}
+.topBar .container .supNav .last .lastas {
+    height: 156px;
+    position: absolute;
+    width: 100%;
+    left: 13px;
+    top: 0px;
+}
+.topBar .container .supNav .last .lastas a{
+    height: 52px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 52px;
+}
+.topBar .container .supNav .last a.two{
+}
+
+/*顶部通栏  结束*/
+
+
+
+/*版权区域  开始*/
+/*版权区域  结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
